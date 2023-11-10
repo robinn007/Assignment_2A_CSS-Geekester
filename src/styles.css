@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color:#44403C;
+  color: #ffffff;
+  height: 100px;
+}
+
+nav ul li{
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 40px;
+} 
+
+nav ul li button {
+  background-color: #ffffff;
+  height: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+#hero {
+width: 1515px;
+height: 600px;
+background-image: url(Screenshot\ \(54\).png);
+}
+
+.container {
+ display: grid;
+ row-gap: 20px;
+ column-gap: 20px;
+ grid-template-columns: repeat(3, 350px);
+ height: 200px;
+ margin: 20px 20px 20px 20px;
+
+}
+
+.container #box-1 img {
+  width: 450px;
+  height: 450px;
+  margin-left: 20px;
+}
+
+.container #box-2 img {
+  width: 450px;
+  height: 450px;
+  margin-left: 140px;
+}
+.container #box-3 img {
+  width: 450px;
+  height: 450px;
+  margin-left: 260px;
+}
+
+#about {
+  display: flex;
+  border: 1px solid gray;
+  margin-top: 240px;
+  height: 480px;
+  background-color: black;
+
+}
+
+.description {
+  width: 50%;
+  font-family: sans-serif;
+  font-weight: 500;
+  color:#ffffff;
+  margin-top: 160px;
+
+}
+
+.bulldoger {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.bulldoger-pic {
+  width: 620px;
+  height: 400px;
+  margin-right: 40px;
+}
+
+
+
